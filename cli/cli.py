@@ -105,6 +105,12 @@ def main():
 
 
 @click.command()
+@click.option(
+    "--config_json",
+    type=str,
+    default=None,
+    help="Pass in amazon config json file",
+)
 @click.option("--no-image", is_flag=True, help="Do not load images")
 @click.option("--headless", is_flag=True, help="Headless mode.")
 @click.option(
@@ -195,8 +201,11 @@ def main():
     default=False,
     help="Wait if captcha could not be solved. Only occurs if enters captcha handler during checkout.",
 )
+
+
 @notify_on_crash
 def amazon(
+    config_json,
     no_image,
     headless,
     test,
@@ -234,6 +243,7 @@ def amazon(
         os.remove(AMAZON_CREDENTIAL_FILE)
 
     amzn_obj = Amazon(
+        config_json=config_json,
         headless=headless,
         notification_handler=notification_handler,
         checkshipping=checkshipping,

@@ -96,6 +96,7 @@ class Amazon:
     def __init__(
         self,
         notification_handler,
+        config_json=None,
         headless=False,
         checkshipping=False,
         detailed=False,
@@ -111,6 +112,7 @@ class Amazon:
         alt_offers=False,
         wait_on_captcha_fail=False,
     ):
+        self.config_json = config_json
         self.notification_handler = notification_handler
         self.asin_list = []
         self.reserve_min = []
@@ -168,8 +170,13 @@ class Amazon:
             except:
                 raise
 
-        if os.path.exists(AUTOBUY_CONFIG_PATH):
-            with open(AUTOBUY_CONFIG_PATH) as json_file:
+        if self.config_json == None:
+            json_config_path = AUTOBUY_CONFIG_PATH
+        else:
+            json_config_path = self.config_json
+
+        if os.path.exists(json_config_path):
+            with open(json_config_path) as json_file:
                 try:
                     config = json.load(json_file)
                     self.asin_groups = int(config["asin_groups"])
