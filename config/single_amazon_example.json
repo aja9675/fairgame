@@ -1,0 +1,11 @@
+{
+  "asin_groups": 1,
+
+  "name1":  "EVGA Power supply 1300 G+",
+  "asin_list_1": ["B08DZY15CW"],
+  "reserve_min_1": 200,
+  "reserve_max_1": 325,
+
+  "amazon_website": "smile.amazon.com"
+}
+

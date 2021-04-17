@@ -1,0 +1,88 @@
+{
+  "asin_groups": 8,
+
+
+  "name1":  "3090",
+  "asin_list_1": [
+	"B08J5F3G18",
+	"B08J61SS5R",
+	"B08HJQ182D",
+	"B08HJGNJ81",
+	"B08NNKHVP3",
+	"B08J6GMWCQ"
+  ],
+  "reserve_min_1": 1000,
+  "reserve_max_1": 2000,
+
+  "name2":  "3080",
+  "asin_list_2": [
+	  "B08HR3Y5GQ",
+	  "B08QW8BKDV",
+	  "B08K3PDL9K",
+	  "B08PC6N5LB",
+	  "B08HR5SXPS",
+	  "B08HR7SV3M"
+  ],
+  "reserve_min_2": 500,
+  "reserve_max_2": 950,
+ 
+  "name3":  "3060 ti",
+  "asin_list_3": [
+	"B08P2H5LW2",
+	"B083Z5P6TX",
+  	"B08NYPLXPJ",
+	"B08P3V572B"
+  ],
+  "reserve_min_3": 300,
+  "reserve_max_3": 640,
+
+
+  "name4":  "EVGA Power supply 1300 G+",
+  "asin_list_4": ["B08DZY15CW"],
+  "reserve_min_4": 200,
+  "reserve_max_4": 325,
+
+
+  "name5":  "EVGA 3060 XC",
+  "asin_list_5": [
+	"B08WM28PVH"
+  ],
+  "reserve_min_5": 250,
+  "reserve_max_5": 425,
+
+
+  "name6":  "Other 3060s",
+  "asin_list_6": [
+	"B08WT47L8B",
+	"B08WPJ5P4R",
+	"B08WHJPBFX",
+	"B08W8DGK3X",
+	"B08WGTL4CW"
+  ],
+  "reserve_min_6": 250,
+  "reserve_max_6": 550,
+
+
+  "name7":  "3070",
+  "asin_list_7": [
+	"B08L8KC1J7",
+	"B08LF1CWT2",
+	"B08L8L71SM",
+	"B08KWN2LZG",
+	"B08L8JNTXQ",
+	"B08KWPDXJZ"
+  ],
+  "reserve_min_7": 300,
+  "reserve_max_7": 700,
+
+
+  "name8":  "3070",
+  "asin_list_8": [
+	"B08F1DKWX5"
+  ],
+  "reserve_min_8": 300,
+  "reserve_max_8": 450,
+
+  "amazon_website": "smile.amazon.com"
+}
+

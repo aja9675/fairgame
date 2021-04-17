@@ -1,0 +1,12 @@
+32GB usb stick for testing
+https://smile.amazon.com/SanDisk-Ultra-Transfer-Speeds-s-SDCZ48-032G-UAM46/dp/B00KYK2AKO/ref=sr_1_9?dchild=1&keywords=usb+32gb&qid=1616256457&sr=8-9
+B00KYK2AKO
+
+EVGA 3090
+https://smile.amazon.com/EVGA-GeForce-Technology-Backplate-24G-P5-3987-KR/dp/B08J5F3G18/ref=sr_1_1?dchild=1&keywords=B08J5F3G18&qid=1616256331&s=electronics&sr=1-1
+  "asin_list_1": ["B08J5F3G18"],
+
+EVGA 3080
+https://smile.amazon.com/EVGA-10G-P5-3897-KR-GeForce-Technology-Backplate/dp/B08HR3Y5GQ/ref=sr_1_2?dchild=1&keywords=evga+rtx+3080&qid=1616256167&refinements=p_n_availability%3A1248801011&rnid=1248799011&s=electronics&sr=1-2
+  "asin_list_2": ["B08HR3Y5GQ"],
+
